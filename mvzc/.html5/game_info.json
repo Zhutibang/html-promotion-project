@@ -1,0 +1,38 @@
+{
+    "index": {
+        "images": [{
+            "file_name": "share1",
+            "file_ext": "png",
+            "path": "images/",
+            "info": "分享操作图片",
+            "size": "501 × 325"
+        }, {
+            "file_name": "bg",
+            "file_ext": "png",
+            "path": "images/",
+            "info": "背景图片",
+            "size": "32 × 32"
+        }],
+        "texts": [{
+            "name": "公司标题",
+            "regex": "『互动上虞游戏』",
+            "file": "index.html"
+        }, {
+            "name": "公司标题跳转链接",
+            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "file": "index.html"
+        }, {
+            "name": "弹窗关注引导，公司标题",
+            "regex": "互动上虞",
+            "file": "js/game.js"
+        }, {
+            "name": "弹窗关注引导，公司标题-链接",
+            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "file": "js/game.js"
+        }, {
+            "name": "关注我们跳转链接",
+            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "file": "index.html"
+        }]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "美女找茬",
+    "description": "这是一个美女找茬的游戏，儿童不宜",
+    "version": "0.0.1",
+    "preview_file": "index.html",
+    "project_name": "mvzc",
+    "create_time": "2016-02-22",
+    "update_time": "2016-03-23",
+    "edit_page": [{
+        "id": "index",
+        "name": "首页",
+        "page": "index.html"
+    }]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "一夜几次郎",
+    "description": "一夜到底有几次，来测一下吧",
+    "version": "0.0.1",
+    "preview_file": "index.html",
+    "project_name": "jicilang",
+    "create_time": "2016-02-22",
+    "update_time": "2016-03-23",
+    "edit_page": [{
+        "id": "index",
+        "name": "首页",
+        "page": "index.html"
+    }]
+}
