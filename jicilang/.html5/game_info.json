@@ -35,7 +35,7 @@
             "file": "index.html"
         }, {
             "name": "跳转按钮-链接",
-            "regex": "http://m.zzfriend.com/",
+            "regex": "http://zhutibang.cn",
             "file": "index.html"
         }, {
             "name": "小于49分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
