@@ -19,7 +19,7 @@
             "file": "index.html"
         }, {
             "name": "公司标题跳转链接",
-            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "regex": "http://zhutibang.cn/?p=title",
             "file": "index.html"
         }, {
             "name": "弹窗关注引导，公司标题",
@@ -27,11 +27,11 @@
             "file": "js/game.js"
         }, {
             "name": "弹窗关注引导，公司标题-链接",
-            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "regex": "http://zhutibang.cn/?p=title",
             "file": "js/game.js"
         }, {
             "name": "关注我们跳转链接",
-            "regex": "http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd",
+            "regex": "http://zhutibang.cn/?p=follow",
             "file": "index.html"
         }]
     }

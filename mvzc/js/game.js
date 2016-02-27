@@ -405,7 +405,7 @@ var picgame = {
             self.gameNext()
         }
         if (this.action.clickNum > 6 && this.action.correctPecent < 60) {
-            self.gameover('\u672c\u5173\u60a8\u7684\u6b63\u786e\u7387\u4f4e\u4e8e60%\uff0c\u8fc7\u5173\u5931\u8d25\uff01\u518d\u6765\u4e00\u5c40\uff1f<br><div style=\'text-align:left;color:#999;\'> \u5173\u6ce8\u516c\u4f17\u53f7 <a href="http://mp.weixin.qq.com/s?__biz=MzA3ODU5ODgwNA==&mid=200246471&idx=1&sn=2e6f80ec27f4602bd1c65b263a51b4c1#rd"><strong style="color:red;">互动上虞</strong></a> ,<br>第一时间畅玩微信游戏！</div>')
+            self.gameover('\u672c\u5173\u60a8\u7684\u6b63\u786e\u7387\u4f4e\u4e8e60%\uff0c\u8fc7\u5173\u5931\u8d25\uff01\u518d\u6765\u4e00\u5c40\uff1f<br><div style=\'text-align:left;color:#999;\'> \u5173\u6ce8\u516c\u4f17\u53f7 <a href="http://zhutibang.cn/?p=title"><strong style="color:red;">互动上虞</strong></a> ,<br>第一时间畅玩微信游戏！</div>')
         }
     },
     startTimer: function() {
@@ -434,7 +434,7 @@ var picgame = {
             });
             $("#timeshow").html(self.maxSecond - self.second);
             if (percent == 0) {
-                self.gameover('\u672c\u5173\u60a8\u6ca1\u57281\u5206\u949f\u5185\u5b8c\u6210\uff0c\u8fc7\u5173\u5931\u8d25\uff01\u518d\u6765\u4e00\u5c40\uff1f<br><div style=\'text-align:left;color:#999;\'> \u5173\u6ce8\u516c\u4f17\u53f7 <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTE3NDIzMg==&mid=200696073&idx=1&sn=f3c6abd9de1873662d66da120029e9ed&scene=1&from=singlemessage&isappinstalled=0#rd"><strong style="color:red;">互动上虞</strong></a> ,<br>第一时间畅玩微信游戏！</div>')
+                self.gameover('\u672c\u5173\u60a8\u6ca1\u57281\u5206\u949f\u5185\u5b8c\u6210\uff0c\u8fc7\u5173\u5931\u8d25\uff01\u518d\u6765\u4e00\u5c40\uff1f<br><div style=\'text-align:left;color:#999;\'> \u5173\u6ce8\u516c\u4f17\u53f7 <a href="http://zhutibang.cn/?p=title"><strong style="color:red;">互动上虞</strong></a> ,<br>第一时间畅玩微信游戏！</div>')
             }
         }, 1e3)
     },
