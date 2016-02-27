@@ -36,6 +36,23 @@
                 "info": "高调转发按钮",
                 "size": "150*150 "
             }
-        ]
+        ],
+      "texts": [
+        {
+            "name": "分享链接",
+            "regex": "http://zhutibang.cn/?p=share",
+            "file": "index.html"
+        },
+        {
+            "name": "'更多游戏'文案",
+            "regex": "更多游戏",
+            "file": "index.html"
+        },
+        {
+            "name": "'更多游戏'跳转链接",
+            "regex": "http://zhutibang.cn/?p=more_game",
+            "file": "index.html"
+        }
+      ]
     }
 }
