@@ -1,0 +1,20 @@
+{
+    "index": {
+        "images": [
+            {
+                "file_name": "1123456",
+                "file_ext": "png",
+                "path": "images/",
+                "info": "底部banner图",
+                "size": "540 * 540 "
+            }
+        ],
+        "texts": [
+          {
+                "name": "底部banner图跳转链接",
+                "regex": "http://zhutibang.cn",
+                "file": "index.php"
+            }
+        ]
+    }
+}

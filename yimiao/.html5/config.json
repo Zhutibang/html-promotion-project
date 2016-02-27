@@ -1,0 +1,16 @@
+{
+	"name": "你的一秒有多长",
+	"description": "你能精准地按出一秒吗？",
+	"version": "0.0.1",
+	"preview_file": "index.php",
+	"project_name": "yimiao",
+	"create_time": "2016-02-23",
+    "update_time": "2016-02-23",
+    "edit_page": [
+        {
+            "id": "index",
+            "name": "首页",
+            "page": "index.php"
+        }
+    ]
+}
