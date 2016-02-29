@@ -41,19 +41,19 @@
         {
             "name": "分享链接",
             "regex": "http://zhutibang.cn/?p=share",
-            "file": "index.html",
-            "files": ["index.html", "test.html"]
+            "file": "index.htm",
+            "files": ["index.htm", "test.htm"]
         },
         {
             "name": "'更多游戏'文案",
             "regex": "更多游戏",
-            "file": "index.html",
+            "file": "index.htm",
             "files": ["index.html"]
         },
         {
             "name": "'更多游戏'跳转链接",
             "regex": "http://zhutibang.cn/?p=more_game",
-            "file": "index.html",
+            "file": "index.htm",
             "files": ["index.html"]
         }
       ]
