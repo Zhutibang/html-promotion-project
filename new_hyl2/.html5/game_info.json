@@ -42,7 +42,7 @@
             "name": "分享链接",
             "regex": "http://zhutibang.cn/?p=share",
             "file": "index.html",
-            "files": ["index.html"]
+            "files": ["index.html", "test.html"]
         },
         {
             "name": "'更多游戏'文案",
