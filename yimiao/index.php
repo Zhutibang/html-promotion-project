@@ -5,6 +5,7 @@
     <title>你能精准地按出一秒吗？</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- BAIDU_TONGJI -->
     <script type="text/javascript" src="js/cashj.js"></script>
     <style type="text/css">
     * {

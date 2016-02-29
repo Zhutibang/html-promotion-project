@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        "Baidutongji"
+    ],
+    "config": {
+        "Baidutongji": {
+            "description": "百度统计插件",
+            "input": [
+                {
+                    "name": "baidu_tongji_code",
+                    "description": "百度统计代码",
+                    "regex": "<!-- BAIDU_TONGJI -->",
+                    "files": [
+                        "index.php"
+                    ]
+                }
+            ]
+        }
+    }
+}
