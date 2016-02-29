@@ -16,23 +16,23 @@
         "texts": [{
             "name": "公司标题",
             "regex": "『互动上虞游戏』",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "公司标题跳转链接",
             "regex": "http://zhutibang.cn/?p=title",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "弹窗关注引导，公司标题",
             "regex": "互动上虞",
-            "file": "js/game.js"
+            "files": ["js/game.js"]
         }, {
             "name": "弹窗关注引导，公司标题-链接",
             "regex": "http://zhutibang.cn/?p=title",
-            "file": "js/game.js"
+            "files": ["js/game.js"]
         }, {
             "name": "关注我们跳转链接",
             "regex": "http://zhutibang.cn/?p=follow",
-            "file": "index.html"
+            "files": ["index.html"]
         }]
     }
 }

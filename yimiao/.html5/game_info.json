@@ -13,7 +13,7 @@
           {
                 "name": "底部banner图跳转链接",
                 "regex": "http://zhutibang.cn",
-                "file": "index.php"
+                "files": ["index.php"]
             }
         ]
     }

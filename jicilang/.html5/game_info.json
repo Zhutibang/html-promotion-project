@@ -16,75 +16,75 @@
         "texts": [{
             "name": "游戏页面标题",
             "regex": "一夜N次郎(色色小游戏)_蚂蚁HTML5社区",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "进入游戏首页：标题",
             "regex": "你是一夜几次郎？",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "进入游戏首页：游戏说明",
             "regex": "从最下面的套套开始，20秒内看你能拆开多少个套套，你就是一夜几次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "游戏标题",
             "regex": "一夜N次郎(色色小游戏)_蚂蚁HTML5社区",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "跳转按钮",
             "regex": "郎君点我！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "跳转按钮-链接",
             "regex": "http://zhutibang.cn",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于49分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "呵呵！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于49分内容说明",
             "regex": "郎君，你好棒，但还得加油哦，昨天试了一下，隔壁王老五比你多2次哦！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于99分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "酷！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于99分内容说明",
             "regex": "郎君，你好坏哦，都快赶上我前任了哦，你比隔壁老六厉害多了！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于99分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "酷！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于99分内容说明",
             "regex": "郎君，你好坏哦，都快赶上我前任了哦，你比隔壁老六厉害多了！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于149分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "帅呆了！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于149分内容说明",
             "regex": "郎君，爱死你了，么么哒，拆了这么多，摞起来都比小四高了！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于199分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "太牛了！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "小于199分内容说明",
             "regex": "郎君，你是我见过最棒的男人，你击败了全国百分之99的男人，​奥巴马和金正恩都惊呆了！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "大于199分统计说明，<span style='color:red;'>（' + score + '）为统计分数，不要改动</span>",
             "regex": "膜拜ing！一夜' + score + '次郎！",
-            "file": "index.html"
+            "files": ["index.html"]
         }, {
             "name": "大于199分内容说明",
             "regex": "你确定你是地球人？你是宇宙第一强人，再也没人能超越你了！",
-            "file": "index.html"
+            "files": ["index.html"]
         }]
     }
 }
