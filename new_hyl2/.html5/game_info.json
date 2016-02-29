@@ -46,12 +46,12 @@
         {
             "name": "'更多游戏'文案",
             "regex": "更多游戏",
-            "files": ["index.html"]
+            "files": ["index.htm"]
         },
         {
             "name": "'更多游戏'跳转链接",
             "regex": "http://zhutibang.cn/?p=more_game",
-            "files": ["index.html"]
+            "files": ["index.htm"]
         }
       ]
     }
