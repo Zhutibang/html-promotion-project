@@ -7,28 +7,28 @@
         "Baidutongji": {
             "description": "百度统计插件",
             "regex": "<!-- BAIDU_TONGJI -->",
+            "files": [
+                "index.php"
+            ],
             "input": [
                 {
                     "name": "baidu_tongji_code",
                     "description": "百度统计代码",
-                    "type": "text",
-                    "files": [
-                        "index.php"
-                    ]
+                    "type": "text"
                 }
             ]
         },
         "ZhutibangCopyright": {
             "description": "主题邦版权信息",
             "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
+            "files": [
+                "input.php"
+            ],
             "input": [
                 {
                     "name": "copyright_show",
                     "description": "是否显示主题邦版权信息",
-                    "type": "radio",
-                    "files": [
-                        "input.php"
-                    ]
+                    "type": "radio"
                 }
             ]
         }
