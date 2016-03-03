@@ -22,7 +22,7 @@
             "description": "主题邦版权信息",
             "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
             "files": [
-                "input.php"
+                "index.php"
             ],
             "input": [
                 {
