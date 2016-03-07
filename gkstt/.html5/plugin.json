@@ -21,7 +21,8 @@
             "description": "主题邦版权信息",
             "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
             "files": [
-                "headline_news/index.html"
+                "headline_news/index.html",
+                "index.html"
             ],
             "input": [
                 {

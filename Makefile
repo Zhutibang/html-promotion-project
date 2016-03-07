@@ -8,5 +8,8 @@ syncUpdate:
 	-git add -A
 	-git commit -m 'Update at $(shell date)'
 	-git push origin master
+	
+check-project-config:
+	html5-promotion-checker ./
 
 .PHONY: main syncUpdate
