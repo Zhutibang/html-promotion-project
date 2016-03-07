@@ -1,0 +1,16 @@
+{
+	"name": "你的一秒有多长",
+	"description": "你能精准地按出一秒吗？",
+	"version": "0.0.1",
+	"preview_file": "index.html",
+	"project_name": "gkstt",
+	"create_time": "2016-03-07",
+    "update_time": "2016-03-07",
+    "edit_page": [
+        {
+            "id": "headingline_index",
+            "name": "头条新闻详情页",
+            "page": "headline_news/index.html"
+        }
+    ]
+}

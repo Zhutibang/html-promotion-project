@@ -1,0 +1,20 @@
+{
+    "index": {
+        "images": [
+            {
+                "file_name": "qrcode",
+                "file_ext": "gif",
+                "path": "headline_news/images/",
+                "info": "二维码关注页",
+                "size": "400 × 200"
+            }
+        ],
+        "texts": [
+          {
+                "name": "「了解更多」跳转链接",
+                "regex": "http://zhutibang.cn?m=gkstt&p=more",
+                "files": ["headline_news/index.html"]
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "plugins": [
+        "Baidutongji",
+        "ZhutibangCopyright",
+        "Accesstime"
+    ],
+    "config": {
+        "Baidutongji": {
+            "description": "百度统计插件",
+            "regex": "<!-- BAIDU_TONGJI -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "baidu_tongji_code",
+                    "description": "百度统计代码",
+                    "type": "text"
+                }
+            ]
+        },
+        "ZhutibangCopyright": {
+            "description": "主题邦版权信息",
+            "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
+            "files": [
+                "headline_news/index.html"
+            ],
+            "input": [
+                {
+                    "name": "copyright_show",
+                    "description": "是否显示主题邦版权信息",
+                    "type": "radio"
+                }
+            ]
+        },
+        "Accesstime": {
+            "description": "访问时间",
+            "regex": "<!-- ACCESS_TIME -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "start_date",
+                    "description": "开始日期(格式:年-月-日-时-分-秒)",
+                    "type": "text"
+                },
+                {
+                    "name": "end_date",
+                    "description": "结束日期(格式:年-月-日-时-分-秒)",
+                    "type": "text"
+                },
+                {
+                    "name": "redirect",
+                    "description": "跳转链接",
+                    "type": "text"
+                }
+            ]
+        }
+    }
+}
