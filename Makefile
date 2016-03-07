@@ -2,7 +2,7 @@ main:
 	echo "Hi"
 
 serve:
-	python -m SimpltHTTPServer 8000
+	python -m SimpleHTTPServer 8000
 
 syncUpdate:
 	-git add -A
