@@ -2,8 +2,8 @@
 	"name": "看你有多色",
 	"description": "找出所有色块中颜色不同的一块",
 	"version": "0.0.1",
-	"preview_file": "index.php",
-	"project_name": "yimiao",
+	"preview_file": "index.html",
+	"project_name": "knyds",
 	"create_time": "2016-03-07",
     "update_time": "2016-03-07",
     "edit_page": [
