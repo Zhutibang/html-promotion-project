@@ -1,0 +1,27 @@
+{
+    "index": {
+        "texts": [
+            {
+                "name": "更多游戏跳转链接",
+                "regex": "http://zhutibang.cn?p=more",
+                "files": [
+                    "index.html"
+                ]
+            },
+            {
+                "name": "微信分享链接",
+                "regex": "http://zhutibang.cn?p=shareLink",
+                "files": [
+                    "assets/js/main.min.js"
+                ]
+            },
+            {
+                "name": "微信分享图片链接",
+                "regex": "http://ww3.sinaimg.cn/large/6ee3e8b3gw1f1o4y4of8sj202s02s3yi.jpg",
+                "files": [
+                    "assets/js/main.min.js"
+                ]
+            }
+        ]
+    }
+}
