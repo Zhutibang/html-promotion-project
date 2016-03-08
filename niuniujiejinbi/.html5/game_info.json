@@ -7,19 +7,22 @@
                 "path": "images/",
                 "info": "开始图",
                 "size": "640 × 960"
-            }, {
+            },
+            {
                 "file_name": "1end",
                 "file_ext": "png",
                 "path": "images/",
                 "info": "结束1",
                 "size": "640 × 960"
-            }, {
+            },
+            {
                 "file_name": "2end",
                 "file_ext": "png",
                 "path": "images/",
                 "info": "结束2",
                 "size": "640 × 960"
-            }, {
+            },
+            {
                 "file_name": "2help",
                 "file_ext": "png",
                 "path": "images/",
@@ -28,24 +31,34 @@
             }
         ],
         "texts": [
-          {
+            {
                 "name": "标题: 牛牛接金币",
                 "regex": "牛牛接金币",
-                "files": ["index.html"]
+                "files": [
+                    "index.php"
+                ]
             },
-                 {
+            {
                 "name": "文案: 超过200分，即可获得一个免费大礼盒，小伙伴们快来一起领礼盒吧~！",
                 "regex": "超过200分，即可获得一个免费大礼盒，小伙伴们快来一起领礼盒吧~！",
-                "files": ["index.html"]
+                "files": [
+                    "index.php"
+                ]
             },
-                 {
+            {
                 "name": "http://ww1.sinaimg.cn/large/6ee3e8b3gw1f1phwlwuekj207p085mxl.jpg",
                 "regex": "http://ww1.sinaimg.cn/large/6ee3e8b3gw1f1phwlwuekj207p085mxl.jpg",
-                "files": ["index.html"]
+                "files": [
+                    "index.php"
+                ]
+            },
+            {
+                "name": "获取领奖信息跳转链接",
+                "regex": "http://zhutibang.cn?m=niuniujiejinbi&p=award",
+                "files": [
+                    "js/main.js"
+                ]
             }
-            
-            
-            
         ]
     }
 }

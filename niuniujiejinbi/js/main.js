@@ -824,9 +824,7 @@ game.showEnd = function(){
         Q.Button.prototype.onEvent.call(this, e);
         if(e.type == "mouseup" || e.type == "touchend")
         {
-			alert("微信关注“红牛内蒙能量站（redbullnm）”，获取领奖信息！")
-			
-			window.location.href="http://mp.weixin.qq.com/s?__biz=MjM5ODMwNTUyMw==&mid=217893365&idx=1&sn=68905c2622897ea0ba9770a2bc3215ab&scene=0#rd"; 
+			window.location.href="http://zhutibang.cn?m=niuniujiejinbi&p=award"; 
         	//弹出手机输入框
 			//document.getElementById('ash_tan').style.display="none"; 
 			//document.getElementById('end_score').style.display="none"; 

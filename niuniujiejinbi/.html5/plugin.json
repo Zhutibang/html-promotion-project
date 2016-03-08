@@ -8,7 +8,7 @@
             "description": "百度统计插件",
             "regex": "<!-- BAIDU_TONGJI -->",
             "files": [
-                "index.html"
+                "index.php"
             ],
             "input": [
                 {
@@ -22,7 +22,7 @@
             "description": "主题邦版权信息",
             "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
             "files": [
-                "index.html"
+                "index.php"
             ],
             "input": [
                 {
