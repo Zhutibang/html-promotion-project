@@ -1,0 +1,16 @@
+{
+    "index": {
+        "texts": [
+          {
+                "name": "文案:》》点击查看更多好玩小游戏《《",
+                "regex": "》》点击查看更多好玩小游戏《《",
+                "files": ["index.html"]
+            },
+                 {
+                "name": "点击查看更多好玩小游戏跳转链接",
+                "regex": "http://zhutibang.cn?m=zqyl&p=more",
+                "files": ["index.html"]
+            }
+        ]
+    }
+}
