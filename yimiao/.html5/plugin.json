@@ -2,7 +2,8 @@
     "plugins": [
         "Baidutongji",
         "ZhutibangCopyright",
-        "Accesstime"
+        "Accesstime",
+        "Accessdomain"
     ],
     "config": {
         "Baidutongji": {
@@ -53,6 +54,20 @@
                 {
                     "name": "redirect",
                     "description": "跳转链接",
+                    "type": "text"
+                }
+            ]
+        },
+        "Accessdomain": {
+            "description": "指定可访问的域名",
+            "regex": "<!-- ACCESS_DOMAIN -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "domains",
+                    "description": "可访问的域名，多个时用英文逗号(,)隔开",
                     "type": "text"
                 }
             ]
