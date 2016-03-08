@@ -1,0 +1,16 @@
+{
+	"name": "牛牛接金币",
+	"description": "超过200分，即可获得一个免费大礼盒，小伙伴们快来一起领礼盒吧",
+	"version": "0.0.1",
+	"preview_file": "index.php",
+	"project_name": "niuniujiejinbi",
+	"create_time": "2016-03-08",
+    "update_time": "2016-03-08",
+    "edit_page": [
+        {
+            "id": "index",
+            "name": "首页",
+            "page": "index.php"
+        }
+    ]
+}
