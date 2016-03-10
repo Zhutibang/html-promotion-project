@@ -3,7 +3,8 @@
         "Baidutongji",
         "ZhutibangCopyright",
         "Accesstime",
-        "Accessdomain"
+        "Accessdomain",
+        "Wxuserinfo"
     ],
     "config": {
         "Baidutongji": {
@@ -68,6 +69,30 @@
                 {
                     "name": "domains",
                     "description": "可访问的域名，多个时用英文逗号(,)隔开",
+                    "type": "text"
+                }
+            ]
+        },
+        "Wxuserinfo": {
+            "description": "获取授权的微信用户的信息",
+            "regex": "<!-- WX_USER_INFO -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "enable",
+                    "description": "是否开启获取授权的微信用户信息",
+                    "type": "radio"
+                },
+                {
+                    "name": "appid",
+                    "description": "AppID(应用ID)",
+                    "type": "text"
+                },
+                {
+                    "name": "appsecret",
+                    "description": "AppSecret(应用密钥)",
                     "type": "text"
                 }
             ]
