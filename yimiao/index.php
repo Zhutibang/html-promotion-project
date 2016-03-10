@@ -171,6 +171,7 @@
   <div style="display:none;">
 	 这里放统计代码
   </div>
+   <!-- ZHUTIBANG_COPYRIGHT -->
+    <!-- BOTTOM_BANNER -->
 </body>
-    <!-- ZHUTIBANG_COPYRIGHT -->
 </html>

@@ -4,7 +4,8 @@
         "ZhutibangCopyright",
         "Accesstime",
         "Accessdomain",
-        "Wxuserinfo"
+        "Wxuserinfo",
+        "Bottombanner"
     ],
     "config": {
         "Baidutongji": {
@@ -93,6 +94,30 @@
                 {
                     "name": "appsecret",
                     "description": "AppSecret(应用密钥)",
+                    "type": "text"
+                }
+            ]
+        },
+        "Bottombanner": {
+            "description": "获取授权的微信用户的信息",
+            "regex": "<!-- BOTTOM_BANNER -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "enable",
+                    "description": "是否显示底部Banner图",
+                    "type": "radio"
+                },
+                {
+                    "name": "link",
+                    "description": "点击跳转链接",
+                    "type": "text"
+                },
+                {
+                    "name": "img_url",
+                    "description": "图片链接",
                     "type": "text"
                 }
             ]
