@@ -14,3 +14,5 @@
 测测你的人品值多少钱 | renpin
 测测你天生是什么命 | tiansheng
 测测你前世是什么人 | qianshi
+测你下半生将拥有什么好命 | houbansheng
+测测你一生中最辉煌的年龄 | huihuang
