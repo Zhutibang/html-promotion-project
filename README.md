@@ -12,3 +12,4 @@
 测你会成为哪家公司总裁 | ceo
 穿越回古代你会是谁 | chuanyue
 测测你的人品值多少钱 | renpin
+测测你天生是什么命 | tiansheng
