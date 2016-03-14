@@ -1,8 +1,8 @@
 main:
-	echo "Hi"
+	echo "Hi 🐔"
 
 serve:
-	python -m SimpleHTTPServer 8000
+	php -S 127.0.0.1:8000 -t ./
 
 syncUpdate:
 	-git add -A
