@@ -1,0 +1,16 @@
+{
+	"name": "测你未来会拥有什么房子",
+	"description": "测你未来会拥有什么房子",
+	"version": "0.0.1",
+	"preview_file": "index.php",
+	"project_name": "fangzi",
+	"create_time": "2016-03-14",
+    "update_time": "2016-03-14",
+    "edit_page": [
+        {
+            "id": "index",
+            "name": "首页",
+            "page": "index.php"
+        }
+    ]
+}
