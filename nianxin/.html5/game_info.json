@@ -1,0 +1,14 @@
+{
+    "index": {
+        "images": [
+           
+        ],
+        "texts": [
+          {
+                "name": "'关注我们'跳转链接",
+                "regex": "http://zhutibang.cn?m=ceo&p=follow",
+                "files": ["index.php"]
+            }
+        ]
+    }
+}
