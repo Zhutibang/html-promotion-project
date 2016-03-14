@@ -1,0 +1,126 @@
+{
+    "plugins": [
+        "Baidutongji",
+        "ZhutibangCopyright",
+        "Accesstime",
+        "Accessdomain",
+        "Wxuserinfo",
+        "Bottombanner"
+    ],
+    "config": {
+        "Baidutongji": {
+            "description": "百度统计插件",
+            "regex": "<!-- BAIDU_TONGJI -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "baidu_tongji_code",
+                    "description": "百度统计代码",
+                    "type": "text"
+                }
+            ]
+        },
+        "ZhutibangCopyright": {
+            "description": "主题邦版权信息",
+            "regex": "<!-- ZHUTIBANG_COPYRIGHT -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "copyright_show",
+                    "description": "是否显示主题邦版权信息",
+                    "type": "radio"
+                }
+            ]
+        },
+        "Accesstime": {
+            "description": "访问时间",
+            "regex": "<!-- ACCESS_TIME -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "start_date",
+                    "description": "开始日期(格式:年-月-日-时-分-秒)",
+                    "type": "text"
+                },
+                {
+                    "name": "end_date",
+                    "description": "结束日期(格式:年-月-日-时-分-秒)",
+                    "type": "text"
+                },
+                {
+                    "name": "redirect",
+                    "description": "跳转链接",
+                    "type": "text"
+                }
+            ]
+        },
+        "Accessdomain": {
+            "description": "指定可访问的域名",
+            "regex": "<!-- ACCESS_DOMAIN -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "domains",
+                    "description": "可访问的域名，多个时用英文逗号(,)隔开",
+                    "type": "text"
+                }
+            ]
+        },
+        "Wxuserinfo": {
+            "description": "获取授权的微信用户的信息",
+            "regex": "<!-- WX_USER_INFO -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "enable",
+                    "description": "是否开启获取授权的微信用户信息",
+                    "type": "radio"
+                },
+                {
+                    "name": "appid",
+                    "description": "AppID(应用ID)",
+                    "type": "text"
+                },
+                {
+                    "name": "appsecret",
+                    "description": "AppSecret(应用密钥)",
+                    "type": "text"
+                }
+            ]
+        },
+        "Bottombanner": {
+            "description": "获取授权的微信用户的信息",
+            "regex": "<!-- BOTTOM_BANNER -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "enable",
+                    "description": "是否显示底部Banner图",
+                    "type": "radio"
+                },
+                {
+                    "name": "link",
+                    "description": "点击跳转链接",
+                    "type": "text"
+                },
+                {
+                    "name": "img_url",
+                    "description": "图片链接",
+                    "type": "text"
+                }
+            ]
+        }
+    }
+}
