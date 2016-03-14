@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>穿越回古代你会是谁？</title>
+    <meta name="keywords" content="穿越回古代你会是谁？" />
+    <meta name="description" content="穿越回古代你会是谁？" />
     <!-- BAIDU_TONGJI -->
     <!-- WX_USER_INFO -->
     <script src="jquery-1.9.1.min.js"></script>
