@@ -129,9 +129,6 @@
         infos=$("#adhtml").val();
 	    $("#footad").append(infos);
     </script>
-    <div style="display:none">
-        <script language="javascript" type="text/javascript" src="http://js.users.51.la/15858550.js"></script>
-    </div>
    <!-- ZHUTIBANG_COPYRIGHT -->
    <!-- BOTTOM_BANNER -->
 </body>
