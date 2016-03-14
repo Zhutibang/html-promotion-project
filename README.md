@@ -13,3 +13,4 @@
 穿越回古代你会是谁 | chuanyue
 测测你的人品值多少钱 | renpin
 测测你天生是什么命 | tiansheng
+测测你前世是什么人 | qianshi

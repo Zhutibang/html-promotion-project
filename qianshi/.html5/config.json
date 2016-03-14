@@ -1,0 +1,16 @@
+{
+	"name": "测测你前世是什么人",
+	"description": "测测你前世是什么人",
+	"version": "0.0.1",
+	"preview_file": "index.php",
+	"project_name": "qianshi",
+	"create_time": "2016-03-14",
+    "update_time": "2016-03-14",
+    "edit_page": [
+        {
+            "id": "index",
+            "name": "首页",
+            "page": "index.php"
+        }
+    ]
+}
