@@ -5,7 +5,8 @@
         "Accesstime",
         "Accessdomain",
         "Wxuserinfo",
-        "Bottombanner"
+        "Bottombanner",
+        "InterstitialAdv"
     ],
     "config": {
         "Baidutongji": {
@@ -119,6 +120,32 @@
                     "name": "img_url",
                     "description": "图片链接",
                     "type": "text"
+                }
+            ]
+        },
+        "InterstitialAdv": {
+            "description": "开屏时弹出关注二维码",
+            "regex": "<!-- INTERSTITIAL_ADV -->",
+            "files": [
+                "index.php"
+            ],
+            "input": [
+                {
+                    "name": "enable",
+                    "description": "是否显示弹框",
+                    "type": "radio"
+                },
+                {
+                    "name": "img_url",
+                    "description": "关注二维码图片链接(建议100px * 100px)",
+                    "type": "text",
+                    "value": "http://ww1.sinaimg.cn/large/6ee3e8b3gw1f2208yladdj202s02sq2v.jpg"
+                },
+                {
+                    "name": "content",
+                    "description": "关注二维码文案",
+                    "type": "text",
+                    "value": "长按二维码，关注主题邦公众号 <br>发现更多好玩的H5"
                 }
             ]
         }
